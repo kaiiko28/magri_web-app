@@ -4,7 +4,7 @@
             <div class="row pt-3">
                 <aside class="col-md-4 footer-about">
                     <article class="d-flex pb-3">
-                        <div><img alt="#" class="logo-footer mr-3" src="img/logo_web.png"></div>
+                        <div><img alt="#" class="logo-footer mr-3" src="{{asset('frontend')}}/img/logo_web.png"></div>
                         <div>
                             <h6 class="title text-white">About Us</h6>
                             <p class="text-muted">Some short text about company like You might remember the Dell computer commercials in which a youth reports.</p>
@@ -18,13 +18,13 @@
                     <h6 class="title">Error Pages</h6>
                     <ul class="list-unstyled hov_footer">
                         <li>
-                            <a class="text-muted" href="not-found.html">Not found</a>
+                            <a class="text-muted" href="{{route('notfound')}}">Not found</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="maintence.html">Maintence</a>
+                            <a class="text-muted" href="{{route('maintenance')}}">Maintenance</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="coming-soon.html">Coming Soon</a>
+                            <a class="text-muted" href="{{route('coming_soon')}}">Coming Soon</a>
                         </li>
                     </ul>
                 </aside>
@@ -32,16 +32,16 @@
                     <h6 class="title">Services</h6>
                     <ul class="list-unstyled hov_footer">
                         <li>
-                            <a class="text-muted" href="faq.html">Delivery Support</a>
+                            <a class="text-muted" href="{{route('faq')}}">Delivery Support</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="contact-us.html">Contact Us</a>
+                            <a class="text-muted" href="{{route('contact_us')}}">Contact Us</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="terms.html">Terms of use</a>
+                            <a class="text-muted" href="{{route('terms')}}">Terms of use</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="privacy.html">Privacy policy</a>
+                            <a class="text-muted" href="{{route('privacy')}}">Privacy policy</a>
                         </li>
                     </ul>
                 </aside>
@@ -49,16 +49,16 @@
                     <h6 class="title">For users</h6>
                     <ul class="list-unstyled hov_footer">
                         <li>
-                            <a class="text-muted" href="login.html">User Login</a>
+                            <a class="text-muted" href="{{route('loginpage')}}">User Login</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="signup.html">User register</a>
+                            <a class="text-muted" href="{{route('signup')}}">User register</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="forgot_password.html">Forgot Password</a>
+                            <a class="text-muted" href="{{route('forgot_password')}}">Forgot Password</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="profile.html">Account Setting</a>
+                            <a class="text-muted" href="{{route('profile')}}">Account Setting</a>
                         </li>
                     </ul>
                 </aside>
@@ -66,16 +66,16 @@
                     <h6 class="title">More Pages</h6>
                     <ul class="list-unstyled hov_footer">
                         <li>
-                            <a class="text-muted" href="trending.html">Trending</a>
+                            <a class="text-muted" href="{{route('trending')}}">Trending</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="most_popular.html">Most popular</a>
+                            <a class="text-muted" href="{{route('most_popular')}}">Most popular</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="restaurant.html">Restaurant Details</a>
+                            <a class="text-muted" href="{{route('restaurant')}}">Restaurant Details</a>
                         </li>
                         <li>
-                            <a class="text-muted" href="favorites.html">Favorites</a>
+                            <a class="text-muted" href="{{route('favorites')}}">Favorites</a>
                         </li>
                     </ul>
                 </aside>
@@ -201,7 +201,7 @@
     <section class="footer-copyright border-top py-3 bg-light">
         <div class="container d-flex align-items-center">
             <p class="mb-0">© 2020 Company All rights reserved</p>
-            <p class="text-muted mb-0 ml-auto d-flex align-items-center"><a class="d-block" href="#"><img alt="#" height="40" src="img/appstore.png"></a> <a class="d-block ml-3" href="#"><img alt="#" height="40" src="img/playmarket.png"></a></p>
+            <p class="text-muted mb-0 ml-auto d-flex align-items-center"><a class="d-block" href="#"><img alt="#" height="40" src="{{asset('frontend')}}/img/appstore.png"></a> <a class="d-block ml-3" href="#"><img alt="#" height="40" src="{{asset('frontend')}}/img/playmarket.png"></a></p>
         </div>
     </section>
 </footer>
@@ -211,66 +211,66 @@
             <a href="{{route('home')}}"><i class="feather-home mr-2"></i> Homepage</a>
         </li>
         <li>
-            <a href="my_order.html"><i class="feather-list mr-2"></i> My Orders</a>
+            <a href="{{route('my_order')}}"><i class="feather-list mr-2"></i> My Orders</a>
         </li>
         <li>
             <a href="#"><i class="feather-edit-2 mr-2"></i> Authentication</a>
             <ul>
                 <li>
-                    <a href="login.html">Login</a>
+                    <a href="{{route('loginpage')}}">Login</a>
                 </li>
                 <li>
-                    <a href="signup.html">Register</a>
+                    <a href="{{route('signup')}}">Register</a>
                 </li>
                 <li>
-                    <a href="forgot_password.html">Forgot Password</a>
+                    <a href="{{route('forgot_password')}}">Forgot Password</a>
                 </li>
                 <li>
-                    <a href="verification.html">Verification</a>
+                    <a href="{{route('verification')}}">Verification</a>
                 </li>
                 <li>
-                    <a href="location.html">Location</a>
+                    <a href="{{route('location')}}">Location</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="favorites.html"><i class="feather-heart mr-2"></i> Favorites</a>
+            <a href="{{route('favorites')}}"><i class="feather-heart mr-2"></i> Favorites</a>
         </li>
         <li>
-            <a href="trending.html"><i class="feather-trending-up mr-2"></i> Trending</a>
+            <a href="{{route('trending')}}"><i class="feather-trending-up mr-2"></i> Trending</a>
         </li>
         <li>
-            <a href="most_popular.html"><i class="feather-award mr-2"></i> Most Popular</a>
+            <a href="{{route('most_popular')}}"><i class="feather-award mr-2"></i> Most Popular</a>
         </li>
         <li>
-            <a href="restaurant.html"><i class="feather-paperclip mr-2"></i> Restaurant Detail</a>
+            <a href="{{route('restaurant')}}"><i class="feather-paperclip mr-2"></i> Restaurant Detail</a>
         </li>
         <li>
-            <a href="checkout.html"><i class="feather-list mr-2"></i> Checkout</a>
+            <a href="{{route('checkout')}}"><i class="feather-list mr-2"></i> Checkout</a>
         </li>
         <li>
-            <a href="successful.html"><i class="feather-check-circle mr-2"></i> Successful</a>
+            <a href="{{route('successful')}}"><i class="feather-check-circle mr-2"></i> Successful</a>
         </li>
         <li>
-            <a href="map.html"><i class="feather-map-pin mr-2"></i> Live Map</a>
+            <a href="{{route('map')}}"><i class="feather-map-pin mr-2"></i> Live Map</a>
         </li>
         <li>
             <a href="#"><i class="feather-user mr-2"></i> Profile</a>
             <ul>
                 <li>
-                    <a href="profile.html">Profile</a>
+                    <a href="{{route('profile')}}">Profile</a>
                 </li>
                 <li>
-                    <a href="favorites.html">Delivery support</a>
+                    <a href="{{route('favorites')}}">Delivery support</a>
                 </li>
                 <li>
-                    <a href="contact-us.html">Contact Us</a>
+                    <a href="{{route('contact_us')}}">Contact Us</a>
                 </li>
                 <li>
-                    <a href="terms.html">Terms of use</a>
+                    <a href="{{route('terms')}}">Terms of use</a>
                 </li>
                 <li>
-                    <a href="privacy.html">Privacy & Policy</a>
+                    <a href="{{route('privacy')}}">Privacy & Policy</a>
                 </li>
             </ul>
         </li>
@@ -278,13 +278,13 @@
             <a href="#"><i class="feather-alert-triangle mr-2"></i> Error</a>
             <ul>
                 <li>
-                    <a href="not-found.html">Not Found</a>
+                    <a href="{{route('notfound')}}">Not Found</a>
                 </li>
                 <li>
-                    <a href="maintence.html">Maintence</a>
+                    <a href="{{route('maintenance')}}">Maintenance</a>
                 </li>
                 <li>
-                    <a href="coming-soon.html">Coming Soon</a>
+                    <a href="{{route('coming_soon')}}">Coming Soon</a>
                 </li>
             </ul>
         </li>
@@ -356,11 +356,11 @@
             <p class="h5 m-0"><i class="feather-home text-danger"></i></p>Home</a>
         </li>
         <li class="github">
-            <a href="faq.html">
+            <a href="{{route('faq')}}">
             <p class="h5 m-0"><i class="feather-message-circle"></i></p>FAQ</a>
         </li>
         <li class="ko-fi">
-            <a href="contact-us.html">
+            <a href="{{route('contact_us')}}">
             <p class="h5 m-0"><i class="feather-phone"></i></p>Help</a>
         </li>
     </ul>

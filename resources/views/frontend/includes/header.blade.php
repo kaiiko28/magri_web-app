@@ -61,16 +61,16 @@
                                 </div></a> <a class="widget-header mr-4 text-white btn bg-primary m-none" href="{{route('offers')}}">
                                 <div class="icon d-flex align-items-center">
                                     <i class="feather-disc h6 mr-2 mb-0"></i> <span>Offers</span>
-                                </div></a> <a class="widget-header mr-4 text-dark m-none" href="{{route('login_page')}}">
+                                </div></a> <a class="widget-header mr-4 text-dark m-none" href="{{route('loginpage')}}">
                                 <div class="icon d-flex align-items-center">
                                     <i class="feather-user h6 mr-2 mb-0"></i> <span>Sign in</span>
                                 </div></a>
                                 <div class="dropdown mr-4 m-none">
                                     <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle text-dark py-3 d-block" data-toggle="dropdown" href="#" id="dropdownMenuButton"><img alt="#" class="img-fluid rounded-circle header-user mr-2 header-user" src="{{asset('frontend')}}/img/user/1.jpg"> Hi Osahan</a>
                                     <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="profile.html">My account</a> <a class="dropdown-item" href="faq.html">Delivery support</a> <a class="dropdown-item" href="contact-us.html">Contant us</a> <a class="dropdown-item" href="terms.html">Term of use</a> <a class="dropdown-item" href="privacy.html">Privacy policy</a> <a class="dropdown-item" href="login.html">Logout</a>
+                                        <a class="dropdown-item" href="{{route('profile')}}">My account</a> <a class="dropdown-item" href="{{route('faq')}}">Delivery support</a> <a class="dropdown-item" href="{{route('contact_us')}}">Contant us</a> <a class="dropdown-item" href="{{route('terms')}}">Term of use</a> <a class="dropdown-item" href="{{route('privacy')}}">Privacy policy</a> <a class="dropdown-item" href="{{route('loginpage')}}">Logout</a>
                                     </div>
-                                </div><a class="widget-header mr-4 text-dark" href="checkout.html">
+                                </div><a class="widget-header mr-4 text-dark" href="{{route('checkout')}}">
                                 <div class="icon d-flex align-items-center">
                                     <i class="feather-shopping-cart h6 mr-2 mb-0"></i> <span>Cart</span>
                                 </div></a> <a class="toggle" href="#"><span></span></a>

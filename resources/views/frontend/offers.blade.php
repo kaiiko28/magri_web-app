@@ -51,13 +51,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular1.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">The osahan Restaurant
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">The osahan Restaurant
                                             </a>
                                         </h6>
                                         <p class="text-gray mb-1 small">• North • Hamburgers</p>
@@ -88,13 +88,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular2.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">Thai Famous Indian
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">Thai Famous Indian
                                                 Cuisine</a></h6>
                                         <p class="text-gray mb-1 small">• Indian • Pure veg</p>
                                         <p class="text-gray mb-1 rating">
@@ -124,13 +124,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular3.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">The osahan Restaurant
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">The osahan Restaurant
                                             </a>
                                         </h6>
                                         <p class="text-gray mb-1 small">• Hamburgers • Pure veg</p>
@@ -161,13 +161,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular4.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">Bite Me Now
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">Bite Me Now
                                                 Sandwiches</a></h6>
                                         <p class="text-gray mb-1 small">American • Pure veg</p>
                                         <p class="text-gray mb-1 rating">
@@ -199,13 +199,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular5.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">The osahan Restaurant
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">The osahan Restaurant
                                             </a>
                                         </h6>
                                         <p class="text-gray mb-1 small">• North • Hamburgers</p>
@@ -236,13 +236,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular6.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">Thai Famous Indian
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">Thai Famous Indian
                                                 Cuisine</a></h6>
                                         <p class="text-gray mb-1 small">• Indian • Pure veg</p>
                                         <p class="text-gray mb-1 rating">
@@ -272,13 +272,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular7.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">The osahan Restaurant
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">The osahan Restaurant
                                             </a>
                                         </h6>
                                         <p class="text-gray mb-1 small">• Hamburgers • Pure veg</p>
@@ -309,13 +309,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular8.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">Bite Me Now
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">Bite Me Now
                                                 Sandwiches</a></h6>
                                         <p class="text-gray mb-1 small">American • Pure veg</p>
                                         <p class="text-gray mb-1 rating">
@@ -347,13 +347,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular5.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">The osahan Restaurant
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">The osahan Restaurant
                                             </a>
                                         </h6>
                                         <p class="text-gray mb-1 small">• North • Hamburgers</p>
@@ -384,13 +384,13 @@
                                                 class="feather-heart"></i></a></div>
                                     <div class="member-plan position-absolute"><span
                                             class="badge badge-dark">Promoted</span></div>
-                                    <a href="restaurant.html">
+                                    <a href="{{route('restaurant')}}">
                                         <img alt="#" src="{{asset('frontend')}}/img/popular2.png" class="img-fluid item-img w-100">
                                     </a>
                                 </div>
                                 <div class="p-3 position-relative">
                                     <div class="list-card-body">
-                                        <h6 class="mb-1"><a href="restaurant.html" class="text-black">Thai Famous Indian
+                                        <h6 class="mb-1"><a href="{{route('restaurant')}}" class="text-black">Thai Famous Indian
                                                 Cuisine</a></h6>
                                         <p class="text-gray mb-1 small">• Indian • Pure veg</p>
                                         <p class="text-gray mb-1 rating">
@@ -501,40 +501,7 @@
             </div>
         </div>
     
-        <div class="osahan-menu-fotter fixed-bottom bg-white px-3 py-2 text-center d-none">
-            <div class="row">
-                <div class="col">
-                    <a href="{{route('home')}}" class="text-dark small font-weight-bold text-decoration-none">
-                        <p class="h4 m-0"><i class="feather-home text-dark"></i></p>
-                        Home
-                    </a>
-                </div>
-                <div class="col selected">
-                    <a href="trending.html" class="text-danger small font-weight-bold text-decoration-none">
-                        <p class="h4 m-0"><i class="feather-map-pin"></i></p>
-                        Trending
-                    </a>
-                </div>
-                <div class="col bg-white rounded-circle mt-n4 px-3 py-2">
-                    <div class="bg-danger rounded-circle mt-n0 shadow">
-                        <a href="checkout.html" class="text-white small font-weight-bold text-decoration-none">
-                            <i class="feather-shopping-cart"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <a href="favorites.html" class="text-dark small font-weight-bold text-decoration-none">
-                        <p class="h4 m-0"><i class="feather-heart"></i></p>
-                        Favorites
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="profile.html" class="text-dark small font-weight-bold text-decoration-none">
-                        <p class="h4 m-0"><i class="feather-user"></i></p>
-                        Profile
-                    </a>
-                </div>
-            </div>
-        </div>
+        
+        @include('frontend.includes.form-main_nav')
     </x-slot>
 </x-guest-layout>
